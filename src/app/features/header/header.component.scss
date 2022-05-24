@@ -1,0 +1,18 @@
+.header{
+    display : flex;
+    justify-content: end;
+    align-items: center;
+    gap:15px;
+    border-bottom: 3px solid  rgb(4, 58, 35);
+.user{
+    margin-bottom: 10px;
+    width :100px;
+    height:40px;
+    margin-top: 5px;;
+}
+svg{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+}
