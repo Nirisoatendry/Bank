@@ -1,14 +1,23 @@
 .sidemenu{
     height: 100%;
-    background-color: rgb(9, 156, 107);
+    background-color: #570A57;
     margin :0;
     padding-top: 25px;
     position: fixed;
     overflow: auto;
     word-spacing: 10px;
+
+    svg{
+        width:35px;
+        height: 35px;
+        fill:#F806CC;
+       position: absolute;
+       left: 30px;
+    }
     h4{
         text-align: center;
         padding-bottom: 15px;
+        color :#F806CC;
     }
     
    li{
@@ -28,6 +37,7 @@
     li:hover{
         background-color: #4b4850;
         transition: 2s;
+        padding-left :35px;
         
     }
    button{
