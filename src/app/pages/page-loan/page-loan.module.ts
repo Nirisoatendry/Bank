@@ -1,11 +1,15 @@
+import { BreadcrumbComponent } from './../../@shared/component/breadcrumb/breadcrumb.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { PageLoanRoutingModule } from './page-loan-routing.module';
 
 
+
 @NgModule({
-  declarations: [],
+  declarations: [
+  
+  ],
   imports: [
     CommonModule,
     PageLoanRoutingModule
