@@ -6,7 +6,6 @@ import { PageLoanModule } from '../page-loan/page-loan.module';
 const routes: Routes = [
   {
     path: '',
-    component: PageLayoutComponent,
     children:[
       {
         path: 'loan',
